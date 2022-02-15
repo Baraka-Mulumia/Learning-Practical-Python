@@ -1,7 +1,8 @@
 print("Welcome to treasure Island")
 print("Your mission is to find the treasure")
 
-direction = input('You are at a cross road. Where do you want to go? Type "left" or "right" \n')
+direction = input(
+    'You are at a cross road. Where do you want to go? Type "left" or "right" \n')
 
 if direction == 'left':
     action = input(
